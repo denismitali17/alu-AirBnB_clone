@@ -26,56 +26,26 @@ The command interpreter helps us to manage the objects of our project by:
 - Updating attributes of an object
 - Destroying an object
 
-alu-AirBnB
-An AirBnB clone project.
+How to start the interpreter
+./console.py
+(hbnb) help
 
-Description
-alu-AirBnB is a full stack web application that replicates main functionalities of AirBnB App. It integrates database, a back-end API, and a front-end. This is the foundational of a larger project, with CLI for managing data, including user and place objects, and setting up the base classes for future expansions like HTML/CSS , database storage, APIs, and front-end integration etc.
+Documented commands (type help <topic>):
+========================================
+EOF  all  create  delete  destroy  exit  help  q  quit  show  update
 
-Key Features
-Custom CLI to manage application data
-Supports(CRUD) operations, create, read, update, and delete for different objects
-BaseModel class for handling serialization/deserialization of objects
-File storage engine
-Unit tests
-How to Start
-To start the command interpreter:
-
-Clone this repository: bash using git clone  cd cloned project  Start the command interpreter: bash ./console.py 
-
-Usage
-In the command-line interpreter, you can:
-
-Create a new object (e.g., User, Place):
-
- create User
- create Place
-Retrieve an object:
-
-show User <user_id>
-Update attributes of an object:
-
- update User <user_id> name "New Name"
-Delete an object:
-
- destroy User <user_id>
-Quit the interpreter:
-
-quit
-
-## How
-``` to use the interpreter
-
-## Tests
+(hbnb) 
+(hbnb) 
+(hbnb) quit
+How to use the interpreter
+Tests
 To run all the tests execute the following command:
 
-```bash
 $ python3 -m unittest discover tests
-```
 You can also run a single test by specifying the test file:
 
-```bash
 $ python3 -m unittest tests/test_models/test_city.py
+
 
 
 
