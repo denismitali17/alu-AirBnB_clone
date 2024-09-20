@@ -72,7 +72,7 @@
 .filters .locations:hover .popover,
 .filters .amenities:hover .popover {
   display: block;
-}
+} 
 
 .filters ul {
   list-style: none;
